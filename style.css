@@ -1,0 +1,141 @@
+body{
+    padding: 0%;
+    position: relative;
+
+}
+
+header {
+    font-family: sans-serif;
+    color: rgba(19, 226, 226, 0.808);
+    background-color: aliceblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgba(54, 209, 30, 0.779);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+h2{
+  
+    position: relative;
+}
+h2::after{
+    content: "TOP";
+    background-color: #ffe70e;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10px;
+    right: 105px;
+}
+
+.nav-link {
+    color: rgba(203, 101, 88, 0.808);
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+ol {
+    font-family: sans-serif;
+    font-weight: bolder;
+ }
+li{
+    margin-bottom: 08px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #444;
+    font-weight: 200;
+}
+
+.related-post {
+    list-style-type: none;
+}
+
+.Related-link {
+    margin-left: 20px;
+    text-decoration: dashed;
+}
+
+.related-author {
+    font-weight: 500;
+}
+
+#copyright {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+aside {
+    background-color: rgb(217, 207, 207);
+    border-top: 5px solid rgb(12, 95, 95);
+    border-bottom: 5px solid rgb(12, 95, 95);
+    width: 500px;
+}
+
+li:nth-child(odd) {
+    color: red;
+    font-style: italic;
+}
+
+.author-name {
+    color: black;
+}
+
+article p:last-child {
+    color: red;
+}
+
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline double orangered;
+    font-style: italic;
+    font-family: cursive;
+}
+
+a:active {
+    color: royalblue;
+    font-family: Arial;
+}
+.related-heading{
+    text-align: center;
+    padding-top: 10px;
+}
+ol,ul{
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.like{
+    background: red;
+    float:inline-start;
+}

@@ -1,0 +1,113 @@
+article {
+    font-family: sans-serif;
+    border: 3px solid;
+
+}
+
+.sale{
+    background: red;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 7px 15px;
+    display: inline-block;
+    position: relative;
+    top: -43px;
+    right: 48px;
+
+}
+
+h2 {
+    background-color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    top: -85px;
+    z-index: -1;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.prize {
+    font-weight: bolder;
+  
+}
+
+.free {
+    color: #444;
+    
+}
+
+.more {
+    color: black;
+}
+
+.new{
+    margin: 26px 5px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+}
+.one{
+background: #000;
+}
+.two{
+background: royalblue;
+}
+.three{
+    background: red;
+}
+.four{
+    background: green;
+}
+.five{
+background: rgb(164, 85, 85);
+}
+.six{
+    background: yellow;
+}
+
+
+
+.more:hover {
+    text-decoration: underline wavy;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul {
+    list-style: square;
+    padding-left: 19px;
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border-top: 3px solid black;
+}
+
+.container {
+    margin:  auto;
+    margin-top: 100px;
+    width: 825px;
+    position: relative;
+}
